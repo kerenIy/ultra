@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+}
+
+section {
+  margin-top: 50px;
+}
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+.navigation-bar button {
+  border: 1px solid #e11299;
+  color: #e11299;
+}
+.btn {
+  color: #ffffff;
+  border: 1px solid #e11299;
+  background-color: #e11299;
+}
+
+.header-text {
+  font-size: 3rem;
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+
+.offer-box {
+  border: 1px solid #f5c6ec;
+  background-color: #f5c6ec;
+}
+.features {
+  border: 1px solid #9a208c;
+  background-color: #9a208c;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.faq-item {
+  border-bottom: 1px solid gray;
+}
+.started {
+  background-color: #f5c6ec;
+  padding: 10px;
+}
+@media screen and (min-width: 576px) {
+  .show {
+    display: none;
+  }
+
+  .header-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-img {
+    width: 550px;
+    height: 350px;
+  }
+
+  .btn {
+    width: 300px;
+  }
+
+  .partners {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .partners img {
+    margin-bottom: 5px;
+  }
+
+  .offer-cover,
+  .segwey,
+  .advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .offer-box {
+    margin: 10px;
+    height: 200px;
+  }
+
+  .features img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .faq-box {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    padding: 30px;
+  }
+  .navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .header-img {
+    width: 325px;
+    height: 225px;
+  }
+
+  i {
+    font-size: 1.5rem;
+  }
+
+  .header-text {
+    font-size: 2.2rem;
+    padding-top: 70px;
+    margin-bottom: 20px;
+  }
+
+  .partners {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partner-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .offer-box i {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding: 5px;
+  }
+
+  .social-icons i {
+    font-size: 1.1rem;
+  }
+}
